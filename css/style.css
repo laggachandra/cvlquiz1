@@ -1,0 +1,448 @@
+/* =========================
+   GLOBAL
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #003366 0%,
+        #007bff 35%,
+        #28a745 70%,
+        #dc3545 100%
+    );
+    background-attachment:fixed;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header{
+    background:linear-gradient(
+        90deg,
+        #003366,
+        #007bff,
+        #28a745
+    );
+
+    color:white;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+
+.company-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.company-logo{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+    background:white;
+    border-radius:50%;
+    padding:5px;
+    box-shadow:0 0 15px rgba(255,255,255,0.4);
+}
+
+.header h1{
+    font-size:32px;
+    margin-bottom:5px;
+}
+
+.header p{
+    font-size:14px;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container{
+    width:95%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+/* =========================
+   GLASS CARDS
+========================= */
+
+.setup-card,
+.question-panel,
+.palette-panel,
+.result-card{
+
+    background:rgba(255,255,255,0.95);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,0.25);
+}
+
+.setup-card h2,
+.result-card h2{
+    text-align:center;
+    color:#003366;
+    margin-bottom:20px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.form-group{
+    margin-bottom:18px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.form-group select,
+.form-group input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+}
+
+.checkbox-group{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button{
+    border:none;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+#startQuizBtn{
+
+    width:100%;
+
+    background:linear-gradient(
+        90deg,
+        #007bff,
+        #28a745
+    );
+
+    color:white;
+
+    padding:14px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:8px;
+}
+
+.prev-btn{
+    background:#6c757d;
+}
+
+.next-btn{
+    background:#007bff;
+}
+
+.review-btn{
+    background:#6f42c1;
+}
+
+.clear-btn{
+    background:#dc3545;
+}
+
+.submit-btn{
+    background:#28a745;
+}
+
+.prev-btn,
+.next-btn,
+.review-btn,
+.clear-btn,
+.submit-btn{
+
+    color:white;
+
+    padding:12px 18px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+}
+
+/* =========================
+   QUIZ LAYOUT
+========================= */
+
+.quiz-container{
+    display:flex;
+    gap:15px;
+    padding:15px;
+}
+
+.question-panel{
+    flex:3;
+}
+
+.palette-panel{
+    flex:1;
+}
+
+/* =========================
+   TIMER
+========================= */
+
+.timer{
+
+    background:linear-gradient(
+        90deg,
+        #dc3545,
+        #ff5722
+    );
+
+    color:white;
+
+    text-align:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+}
+
+/* =========================
+   QUESTIONS
+========================= */
+
+.question-number{
+    color:#003366;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.question-text{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.option{
+
+    display:block;
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border:2px solid #ddd;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    background:white;
+}
+
+.option:hover{
+    border-color:#007bff;
+    background:#f0f8ff;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.navigation{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+/* =========================
+   QUESTION PALETTE
+========================= */
+
+.palette-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:8px;
+}
+
+.palette-btn{
+
+    width:45px;
+    height:45px;
+
+    border-radius:50%;
+
+    color:white;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+/* CBT COLORS */
+
+.not-visited{
+    background:#6c757d;
+}
+
+.not-answered{
+    background:#dc3545;
+}
+
+.answered{
+    background:#28a745;
+}
+
+.review{
+    background:#6f42c1;
+}
+
+.current{
+    border:3px solid #007bff;
+}
+
+/* =========================
+   LEGEND
+========================= */
+
+.legend{
+    margin-top:20px;
+}
+
+.legend-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:8px;
+}
+
+.legend-box{
+    width:20px;
+    height:20px;
+    border-radius:4px;
+}
+
+/* =========================
+   RESULTS
+========================= */
+
+.result-row{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.correct{
+    color:#28a745;
+    font-weight:bold;
+}
+
+.wrong{
+    color:#dc3545;
+    font-weight:bold;
+}
+
+.explanation{
+    background:#f8f9fa;
+    border-left:5px solid #007bff;
+    padding:10px;
+    margin-top:10px;
+}
+
+#scoreQ{
+    font-size:32px;
+    color:#28a745;
+    font-weight:bold;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    padding:20px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .quiz-container{
+        flex-direction:column;
+    }
+
+    .palette-grid{
+        grid-template-columns:repeat(4,1fr);
+    }
+
+    .navigation{
+        flex-direction:column;
+    }
+
+    .navigation button{
+        width:100%;
+    }
+
+    .header h1{
+        font-size:24px;
+    }
+
+    .company-logo{
+        width:60px;
+        height:60px;
+    }
+}
+

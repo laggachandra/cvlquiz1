@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CHANDRAVEDALABS CBT Quiz</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="company-header">
+
+        <img
+            src="assets/logo.png"
+            alt="CHANDRAVEDALABS Logo"
+            class="company-logo"
+        >
+
+        <div>
+
+            <h1>CHANDRAVEDALABS</h1>
+
+            <p>
+            Training and Research Services in Lifesciences
+            </p>
+
+        </div>
+
+    </div>
+
+</header>
+<div class="quiz-container">
+
+    <!-- Question Panel -->
+
+    <div class="question-panel">
+
+        <div id="timer" class="timer">
+            00:00:00
+        </div>
+
+        <div
+            id="questionNumber"
+            class="question-number">
+        </div>
+
+        <div
+            id="questionText"
+            class="question-text">
+        </div>
+
+        <div id="optionsContainer">
+        </div>
+
+        <div class="navigation">
+
+            <button
+                id="prevBtn"
+                class="prev-btn">
+                Previous
+            </button>
+
+            <button
+                id="saveNextBtn"
+                class="next-btn">
+                Save & Next
+            </button>
+
+            <button
+                id="reviewBtn"
+                class="review-btn">
+                Mark For Review
+            </button>
+
+            <button
+                id="clearBtn"
+                class="clear-btn">
+                Clear Response
+            </button>
+
+            <button
+                id="submitBtn"
+                class="submit-btn">
+                Submit Test
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Palette Panel -->
+
+    <div class="palette-panel">
+
+        <h3>Question Palette</h3>
+
+        <br>
+
+        <div
+            id="paletteGrid"
+            class="palette-grid">
+        </div>
+
+        <div class="legend">
+
+            <h3>Legend</h3>
+
+            <br>
+
+            <div class="legend-item">
+                <div
+                    class="legend-box not-visited">
+                </div>
+                <span>Not Visited</span>
+            </div>
+
+            <div class="legend-item">
+                <div
+                    class="legend-box not-answered">
+                </div>
+                <span>Not Answered</span>
+            </div>
+
+            <div class="legend-item">
+                <div
+                    class="legend-box answered">
+                </div>
+                <span>Answered</span>
+            </div>
+
+            <div class="legend-item">
+                <div
+                    class="legend-box review">
+                </div>
+                <span>Marked For Review</span>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <p>
+                Total:
+                <span id="totalQuestions">
+                </span>
+            </p>
+
+            <p>
+                Answered:
+                <span id="answeredCount">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Review:
+                <span id="reviewCount">
+                    0
+                </span>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/quiz.js"></script>
+
+</body>
+</html>

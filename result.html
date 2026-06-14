@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quiz Result - CHANDRAVEDALABS</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="company-header">
+
+        <img
+            src="assets/logo.png"
+            alt="CHANDRAVEDALABS Logo"
+            class="company-logo"
+        >
+
+        <div>
+
+            <h1>CHANDRAVEDALABS</h1>
+
+            <p>
+            Training and Research Services in Lifesciences
+            </p>
+
+        </div>
+
+    </div>
+
+</header>
+<div class="container">
+
+    <div class="result-card">
+
+        <h2>Quiz Result</h2>
+
+        <div class="result-row">
+            Total Questions :
+            <strong id="totalQ"></strong>
+        </div>
+
+        <div class="result-row">
+            Attempted :
+            <strong id="attemptedQ"></strong>
+        </div>
+
+        <div class="result-row">
+            Not Attempted :
+            <strong id="notAttemptedQ"></strong>
+        </div>
+
+        <div class="result-row">
+            Correct :
+            <strong
+            id="correctQ"
+            class="correct">
+            </strong>
+        </div>
+
+        <div class="result-row">
+            Wrong :
+            <strong
+            id="wrongQ"
+            class="wrong">
+            </strong>
+        </div>
+
+        <div class="result-row">
+            Score :
+            <strong id="scoreQ"></strong> %
+        </div>
+
+        <hr style="margin:20px 0;">
+
+        <h3>Question Review</h3>
+
+        <br>
+
+        <div id="reviewContainer">
+
+        </div>
+
+        <br>
+
+        <button
+        id="restartBtn"
+        class="next-btn">
+
+        Start New Quiz
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/result.js"></script>
+
+</body>
+</html>

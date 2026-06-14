@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Cell is the basic unit of?",
+    "options": [
+      "Life",
+      "Water",
+      "Air",
+      "Energy"
+    ],
+    "answer": 0,
+    "explanation": "Cell is the basic structural and functional unit of life."
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Golgi Body",
+      "Ribosome"
+    ],
+    "answer": 1,
+    "explanation": "Mitochondria produce ATP and are called the powerhouse of the cell."
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Which organelle contains genetic material?",
+    "options": [
+      "Lysosome",
+      "Nucleus",
+      "Golgi Body",
+      "Centrosome"
+    ],
+    "answer": 1,
+    "explanation": "The nucleus contains DNA and controls cell activities."
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Which organelle is known as the protein factory?",
+    "options": [
+      "Ribosome",
+      "Mitochondria",
+      "Vacuole",
+      "Nucleus"
+    ],
+    "answer": 0,
+    "explanation": "Ribosomes synthesize proteins."
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Which structure controls movement of substances into and out of the cell?",
+    "options": [
+      "Cell Wall",
+      "Cell Membrane",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "answer": 1,
+    "explanation": "The plasma membrane regulates transport."
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Which organelle is responsible for photosynthesis?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Nucleus",
+      "Vacuole"
+    ],
+    "answer": 1,
+    "explanation": "Chloroplasts contain chlorophyll and perform photosynthesis."
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "The jelly-like substance inside the cell is called?",
+    "options": [
+      "Nucleoplasm",
+      "Cytoplasm",
+      "Cell Sap",
+      "Matrix"
+    ],
+    "answer": 1,
+    "explanation": "Cytoplasm is the semi-fluid material inside cells."
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Which cell organelle is called the suicidal bag?",
+    "options": [
+      "Ribosome",
+      "Vacuole",
+      "Lysosome",
+      "Golgi Body"
+    ],
+    "answer": 2,
+    "explanation": "Lysosomes contain digestive enzymes."
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Who discovered the cell?",
+    "options": [
+      "Robert Hooke",
+      "Darwin",
+      "Mendel",
+      "Pasteur"
+    ],
+    "answer": 0,
+    "explanation": "Robert Hooke discovered cells in cork tissue in 1665."
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Which organelle packages and modifies proteins?",
+    "options": [
+      "Golgi Apparatus",
+      "Nucleus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "answer": 0,
+    "explanation": "Golgi apparatus modifies, sorts, and packages proteins."
+  }
+]
