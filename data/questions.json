@@ -1,1 +1,453 @@
 
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Who proposed the Cell Theory?",
+    "options": [
+      "Schleiden and Schwann",
+      "Robert Hooke",
+      "Virchow",
+      "Darwin"
+    ],
+    "answer": 0,
+    "explanation": "Schleiden and Schwann proposed the Cell Theory."
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Who stated that all cells arise from pre-existing cells?",
+    "options": [
+      "Schwann",
+      "Hooke",
+      "Virchow",
+      "Mendel"
+    ],
+    "answer": 2,
+    "explanation": "Virchow proposed 'Omnis cellula e cellula'."
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "The fluid mosaic model of plasma membrane was proposed by?",
+    "options": [
+      "Watson and Crick",
+      "Singer and Nicolson",
+      "Schleiden and Schwann",
+      "Hooke and Leeuwenhoek"
+    ],
+    "answer": 1,
+    "explanation": "Singer and Nicolson proposed the Fluid Mosaic Model in 1972."
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Which cell organelle is the site of ATP synthesis?",
+    "options": [
+      "Ribosome",
+      "Golgi Apparatus",
+      "Mitochondria",
+      "Lysosome"
+    ],
+    "answer": 2,
+    "explanation": "ATP is synthesized in mitochondria."
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Which organelle contains hydrolytic enzymes?",
+    "options": [
+      "Lysosome",
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome"
+    ],
+    "answer": 0,
+    "explanation": "Lysosomes contain digestive enzymes."
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "The cell wall of plants is mainly composed of?",
+    "options": [
+      "Protein",
+      "Cellulose",
+      "Lipid",
+      "Chitin"
+    ],
+    "answer": 1,
+    "explanation": "Plant cell walls are primarily made of cellulose."
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Which organelle is absent in prokaryotic cells?",
+    "options": [
+      "Ribosome",
+      "Cell Membrane",
+      "Nucleus",
+      "Cytoplasm"
+    ],
+    "answer": 2,
+    "explanation": "Prokaryotes lack a membrane-bound nucleus."
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "The smallest known cell is?",
+    "options": [
+      "Mycoplasma",
+      "Amoeba",
+      "Euglena",
+      "Paramecium"
+    ],
+    "answer": 0,
+    "explanation": "Mycoplasma is the smallest living cell."
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Medium",
+    "question": "Which organelle is involved in intracellular digestion?",
+    "options": [
+      "Golgi Body",
+      "Ribosome",
+      "Lysosome",
+      "Nucleus"
+    ],
+    "answer": 2,
+    "explanation": "Lysosomes digest cellular waste materials."
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "chapter": "Cell",
+    "difficulty": "Easy",
+    "question": "Chromosomes are present inside the?",
+    "options": [
+      "Vacuole",
+      "Nucleus",
+      "Mitochondria",
+      "Golgi Body"
+    ],
+    "answer": 1,
+    "explanation": "Chromosomes are located inside the nucleus."
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "difficulty": "Easy",
+    "question": "The building blocks of proteins are?",
+    "options": [
+      "Fatty acids",
+      "Nucleotides",
+      "Amino acids",
+      "Monosaccharides"
+    ],
+    "answer": 2,
+    "explanation": "Proteins are polymers of amino acids."
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "difficulty": "Medium",
+    "question": "DNA contains which sugar?",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Glucose",
+      "Fructose"
+    ],
+    "answer": 1,
+    "explanation": "DNA contains deoxyribose sugar."
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "difficulty": "Easy",
+    "question": "Which biomolecule acts as the primary energy currency of the cell?",
+    "options": [
+      "ATP",
+      "DNA",
+      "Protein",
+      "RNA"
+    ],
+    "answer": 0,
+    "explanation": "ATP stores and transfers energy in cells."
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "chapter": "Cell Cycle",
+    "difficulty": "Medium",
+    "question": "DNA replication occurs during which phase?",
+    "options": [
+      "G1",
+      "S",
+      "G2",
+      "M"
+    ],
+    "answer": 1,
+    "explanation": "DNA replication occurs during the S phase."
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "chapter": "Cell Cycle",
+    "difficulty": "Medium",
+    "question": "Chromosomes align at the equatorial plate during?",
+    "options": [
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "answer": 1,
+    "explanation": "Metaphase is characterized by chromosome alignment."
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "difficulty": "Easy",
+    "question": "Father of Genetics is?",
+    "options": [
+      "Darwin",
+      "Mendel",
+      "Morgan",
+      "Watson"
+    ],
+    "answer": 1,
+    "explanation": "Gregor Mendel is known as the Father of Genetics."
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "difficulty": "Medium",
+    "question": "The physical appearance of an organism is called?",
+    "options": [
+      "Genotype",
+      "Phenotype",
+      "Allele",
+      "Locus"
+    ],
+    "answer": 1,
+    "explanation": "Phenotype refers to observable characteristics."
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "difficulty": "Medium",
+    "question": "A heterozygous genotype for a trait is represented as?",
+    "options": [
+      "AA",
+      "aa",
+      "Aa",
+      "BB"
+    ],
+    "answer": 2,
+    "explanation": "Aa represents a heterozygous genotype."
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "difficulty": "Easy",
+    "question": "The oxygen-carrying pigment in blood is?",
+    "options": [
+      "Myoglobin",
+      "Hemoglobin",
+      "Melanin",
+      "Insulin"
+    ],
+    "answer": 1,
+    "explanation": "Hemoglobin transports oxygen in blood."
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "difficulty": "Easy",
+    "question": "Functional unit of kidney is?",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Sarcomere"
+    ],
+    "answer": 1,
+    "explanation": "Nephron is the structural and functional unit of the kidney."
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "difficulty": "Medium",
+    "question": "Normal resting heart rate in adults is approximately?",
+    "options": [
+      "20 bpm",
+      "72 bpm",
+      "150 bpm",
+      "200 bpm"
+    ],
+    "answer": 1,
+    "explanation": "Average resting heart rate is about 72 beats per minute."
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "difficulty": "Easy",
+    "question": "Photosynthesis occurs in?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Ribosome",
+      "Golgi Apparatus"
+    ],
+    "answer": 1,
+    "explanation": "Photosynthesis occurs in chloroplasts."
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "difficulty": "Medium",
+    "question": "The opening and closing of stomata is controlled by?",
+    "options": [
+      "Guard Cells",
+      "Xylem",
+      "Phloem",
+      "Root Hairs"
+    ],
+    "answer": 0,
+    "explanation": "Guard cells regulate stomatal movement."
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "chapter": "Ecology",
+    "difficulty": "Easy",
+    "question": "The functional unit of nature is?",
+    "options": [
+      "Species",
+      "Population",
+      "Ecosystem",
+      "Community"
+    ],
+    "answer": 2,
+    "explanation": "An ecosystem is the functional unit of nature."
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "chapter": "Ecology",
+    "difficulty": "Medium",
+    "question": "Producers occupy which trophic level?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "answer": 0,
+    "explanation": "Producers occupy the first trophic level."
+  },
+  {
+    "id": 26,
+    "subject": "Biology",
+    "chapter": "Evolution",
+    "difficulty": "Easy",
+    "question": "Theory of Natural Selection was proposed by?",
+    "options": [
+      "Mendel",
+      "Darwin",
+      "Pasteur",
+      "Hooke"
+    ],
+    "answer": 1,
+    "explanation": "Charles Darwin proposed Natural Selection."
+  },
+  {
+    "id": 27,
+    "subject": "Biology",
+    "chapter": "Microbiology",
+    "difficulty": "Medium",
+    "question": "The genetic material in most organisms is?",
+    "options": [
+      "RNA",
+      "Protein",
+      "DNA",
+      "Lipid"
+    ],
+    "answer": 2,
+    "explanation": "DNA is the genetic material in most organisms."
+  },
+  {
+    "id": 28,
+    "subject": "Biology",
+    "chapter": "Biotechnology",
+    "difficulty": "Medium",
+    "question": "PCR stands for?",
+    "options": [
+      "Protein Chain Reaction",
+      "Polymerase Chain Reaction",
+      "Primary Cell Reaction",
+      "Protein Cell Replication"
+    ],
+    "answer": 1,
+    "explanation": "PCR means Polymerase Chain Reaction."
+  },
+  {
+    "id": 29,
+    "subject": "Biology",
+    "chapter": "Biotechnology",
+    "difficulty": "Medium",
+    "question": "Restriction enzymes are used to?",
+    "options": [
+      "Cut DNA",
+      "Synthesize Protein",
+      "Transport RNA",
+      "Produce ATP"
+    ],
+    "answer": 0,
+    "explanation": "Restriction enzymes cut DNA at specific sequences."
+  },
+  {
+    "id": 30,
+    "subject": "Biology",
+    "chapter": "Biotechnology",
+    "difficulty": "Medium",
+    "question": "The enzyme used in PCR is?",
+    "options": [
+      "DNA Ligase",
+      "Taq Polymerase",
+      "Amylase",
+      "Pepsin"
+    ],
+    "answer": 1,
+    "explanation": "Taq polymerase is heat-stable and used in PCR."
+  }
+]
